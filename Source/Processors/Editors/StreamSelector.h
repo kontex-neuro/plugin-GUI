@@ -62,7 +62,7 @@ public:
     StreamInfoView(const DataStream* stream, GenericEditor* editor, bool isEnabled);
     
     /** Destructor*/
-    ~StreamInfoView() { }
+    ~StreamInfoView() = default;
 
     /** Returns the streamId associated with this view*/
     uint16 getStreamId() const;
@@ -148,7 +148,7 @@ public:
     StreamSelector(GenericEditor* editor);
     
     /** Destructor*/
-    ~StreamSelector() { }
+    ~StreamSelector() = default;
 
     /** Adds a new DataStream*/
     void add(const DataStream*);

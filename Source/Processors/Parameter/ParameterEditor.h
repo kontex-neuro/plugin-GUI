@@ -271,7 +271,7 @@ public:
     SelectedChannelsParameterEditor(Parameter* param);
 
     /** Destructor */
-    virtual ~SelectedChannelsParameterEditor() { }
+    virtual ~SelectedChannelsParameterEditor() = default;
 
     /** Displays the PopupChannelSelector*/
     void buttonClicked(Button* label) override;
@@ -306,7 +306,7 @@ public:
     MaskChannelsParameterEditor(Parameter* param);
 
     /** Destructor */
-    virtual ~MaskChannelsParameterEditor() { }
+    virtual ~MaskChannelsParameterEditor() = default;
 
     /** Displays the PopupChannelSelector*/
     void buttonClicked(Button* label) override;
