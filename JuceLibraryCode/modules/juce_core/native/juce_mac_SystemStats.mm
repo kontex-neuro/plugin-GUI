@@ -162,6 +162,7 @@ SystemStats::OperatingSystemType SystemStats::getOperatingSystemType()
     
     if (major == 12)
         return MacOS_12;
+    return MacOS_12;
    #endif
 }
 

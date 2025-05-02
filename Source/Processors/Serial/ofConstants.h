@@ -15,7 +15,7 @@
 #define TARGET_WIN32
 #elif defined( __APPLE_CC__)
 #include <TargetConditionals.h>
-
+#define TARGET_OS_IPHONE_SIMULATOR 0
 #if (TARGET_OS_IPHONE_SIMULATOR) || (TARGET_OS_IPHONE) || (TARGET_IPHONE)
 #define TARGET_OF_IPHONE
 #define TARGET_OPENGLES
